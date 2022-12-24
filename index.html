@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JS Yakuniy imtihon</title>
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -14,7 +14,7 @@
             <img src="./img/logo.png" alt="" class="logo">
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#" class="nav-link">Asosiy sahifa</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Counter</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Count</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Slider(Carusel)</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">FormPage</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Kalkulyator</a></li>
@@ -22,7 +22,32 @@
             </ul>
         </nav>
     </header>
+    <section class="home">
+        <img src="./img/logo.png" alt="">
+        <h1>Mazkur imtihon Frontend kursini tamomlayotganlar uchun JavaScriptdan so'ngi imtihondir. Imtihonda 5 ta amaliy mashg'ulot mavjud va har bir mashg'ulotga 0 dan 10 gacham ball qo'yiladi.
+            Ummumiy 30 balldan yuqori ball olgan o'quvchilar keyingi bosqichga o'tishadi
+        </h1> 
+    </section>
+    <section class="count">
+        <div class="card">
+            <img src="./img/phone.png" alt="">
+            <div class="text">
+                <h2>iPhone harid qiling</h2>
+                <h3>Bitta telfonning narxi: 450$</h3>
+                <div id="count">
+                    <button class="plus">+</button>
+                    <h2 class="telSoni">0</h2>
+                    <button class="minus">-</button>
+                </div>
+                <div class="narx">
+                    <h3>Harid qilmoxchi bo'lgan maxsulotlaringizning ummumiy qiymati: <b id="narx">0$</b></h3>
+                </div>
+                <button class="olish">Haridni amalga oshirish</button>
+            </div>
+        </div>
+    </section>
 
     <script src="./header.js"></script>
+    <script src="./count.js"></script>
 </body>
 </html>
