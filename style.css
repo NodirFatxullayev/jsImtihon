@@ -254,3 +254,62 @@ tbody tr td img{
     border-radius: 50%;
 }
 
+.math{
+    width: 1440px;
+    height: 700px;
+    background: linear-gradient(to bottom, white, pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.math img{
+    width: 500px;
+    position: absolute;
+    z-index: 2;
+}
+.math .cal{
+    transform: translate(0, -15px);
+    width: 320px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.801);
+    z-index: 1;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.math .cal input{
+    grid-column: 1/5;
+    text-align: right;
+    height: 150px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 30px;
+    width: 320px;
+    display: flex;
+    align-items: flex-end;
+}
+.math .cal button{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    border: none;
+    background-color: #080808;
+    color: #fff;
+}
+.math .cal .zero{
+    grid-column: 1/3;
+    width: 140px;
+    height: 70px;
+    border-radius: 35px;
+}
+.math .cal .grey{
+    background-color: rgb(175, 175, 175);
+    color: black;
+}
+.math .cal .gold{
+    background-color: rgb(238, 163, 0);
+    color: #fff;
+}
