@@ -207,3 +207,50 @@ nav .nav-menu{
     background-color: rgba(128, 128, 128, 0.562);
 }
 
+.form{
+    width: 1440px;
+    height: 700px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+form input{
+    padding: 5px 15px;
+    font-size: 15px;
+}
+form button{
+    font-size: 25px;
+    background-color: rgb(55, 230, 55);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+.table{
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+}
+.table table{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid cadetblue;
+}
+/* tbody tr td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+tbody tr td img{
+    width: 40px;
+    border-radius: 50%;
+}
+

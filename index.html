@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -24,9 +26,10 @@
     </header>
     <section class="home">
         <img src="./img/logo.png" alt="">
-        <h1>Mazkur imtihon Frontend kursini tamomlayotganlar uchun JavaScriptdan so'ngi imtihondir. Imtihonda 5 ta amaliy mashg'ulot mavjud va har bir mashg'ulotga 0 dan 10 gacham ball qo'yiladi.
+        <h1>Mazkur imtihon Frontend kursini tamomlayotganlar uchun JavaScriptdan so'ngi imtihondir. Imtihonda 5 ta
+            amaliy mashg'ulot mavjud va har bir mashg'ulotga 0 dan 10 gacham ball qo'yiladi.
             Ummumiy 30 balldan yuqori ball olgan o'quvchilar keyingi bosqichga o'tishadi
-        </h1> 
+        </h1>
     </section>
     <section class="count">
         <div class="card">
@@ -63,8 +66,41 @@
         <img src="./img/arrow.png" alt="" class="right">
     </section>
 
+    <section class="form">
+        <form action="#">
+            <h2>Ro'yhatdan o'tish</h2>
+            <input type="text" placeholder="Name" class="name">
+            <input type="text" placeholder="Email" class="email">
+            <div>
+                <label for="erkak">Erkak: </label> <input type="radio" id="erkak" name="sex" class="sex">
+            </div>
+            <div>
+                <label for="ayol">Ayol: </label> <input type="radio" id="ayol" name="sex" class="sex">
+            </div>
+
+            <button class="formBtn">Ma'lumotlarni jo'natish</button>
+        </form>
+        <div class="table">
+            <h2>Ro'yhatdan o'tganlar</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Avatar</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+
     <script src="./header.js"></script>
     <script src="./count.js"></script>
     <script src="./slide.js"></script>
+    <script src="./form.js"></script>
 </body>
+
 </html>
