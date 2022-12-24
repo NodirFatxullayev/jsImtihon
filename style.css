@@ -151,3 +151,59 @@ nav .nav-menu{
 .card .text #narx{
     font-size: 35px;
 }
+
+.slider{
+    width: 1440px;
+    height: 700px;
+    background: linear-gradient(to bottom, #CFD8DC, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slider > img{
+    width: 20px;
+}
+.slider .left{
+    transform: rotate(180deg);
+}
+.slide{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px #fff, 0 2px 10px gray;
+}
+.slide .imgs{
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.2s;
+}
+.slide .imgs .slide1{
+    width: 280px;   
+}
+.slide .imgs .slide2{
+    width: 400px;   
+}
+.slide .box{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide .box .circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.562);
+}
+
